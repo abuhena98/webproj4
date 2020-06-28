@@ -1,0 +1,126 @@
+*{
+
+margin: 0;
+
+padding: 0;
+}
+body{
+
+      background-image: url(../images/men.jpg);
+    background-repeat: no-repeat;
+}
+img{max-width: 100%;}
+header{
+    background: #97b4cc;
+    box-shadow: 0px 0px  20px crimson;
+    text-transform: capitalize;
+}
+nav{}
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 24px;
+}
+nav ul li a:hover{
+	    color: beige;
+}
+nav ul li a img{
+    width: 120px;
+}
+.form_section{
+    padding: 20px 0px;
+    /* background: azure; */
+  
+}
+.form_box{
+
+width: 700px;
+
+margin: auto;
+
+/* background: #89c50ba3; */
+
+/* text-align: center; */
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: left;
+    padding-bottom: 35px;
+}
+ b label{
+ 	    font-size: 20px;
+ 	    display: block;
+ 	    margin-bottom: 10px;
+ 	    margin-top: 15px;
+ }
+ label{
+
+ }
+input[type="text"],input[type="email"],input[type="password"]
+{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #97b4cc;
+    margin-bottom: 35px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+input[type="file"]
+{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #97b4cc;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+span{
+
+}
+input[type="submit"]{
+	
+display: block;
+	
+padding: 10px 15px;
+	
+font-size: 13px;
+	
+text-transform: capitalize;
+	
+margin-top: 30px;
+	
+background: #97b4cc;
+	
+border: 1px solid #333;
+}
+input[type="submit"]:hover{
+   background: transparent;
+}
+input:focus{
+	outline: none;
+}
+::placeholder{
+	color:  #97b4cc;
+}
+::selection{
+background: #97b4cc;
+}
+.flex{
+
+}
+.image{
+	
+}
